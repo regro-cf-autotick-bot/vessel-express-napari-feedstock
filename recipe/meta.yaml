@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vessel-express-napari-{{ version }}.tar.gz
   sha256: 0d3312dc17de487b1d29485f3eaf92b935da3e0298b746e104d1b323316f04b5
-  patches:
-    - imports.patch  # Replace pyqt5 imports with qtpy
 
 build:
   noarch: python
